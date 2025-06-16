@@ -1,0 +1,28 @@
+.container{display: flex
+    ;flex-direction: row;}
+
+.Left{width: 30%;
+    height: 100%;
+border: 2px solid red;}
+
+.Right{width: 70%;
+    height: 100%;
+border: 2px solid red;} 
+
+.row{display: flex;
+    justify-content:space-between;
+    border: 2px solid black;
+margin-bottom: 10px;}
+
+.content{margin-bottom:5px ;
+    border: 2px solid black;
+}
+
+img{width: 89px;
+height: 90px;
+border: 2px solid red;
+;}
+
+h2{margin: 0px;padding: 0px;
+
+text-align: center;}
