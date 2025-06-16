@@ -1,0 +1,37 @@
+h1{ position: relative;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.mid{display: flex;
+    border: 2px solid rebeccapurple;
+    margin-top: 40px;
+}
+
+.bottom{display: flex;
+    border: 2px solid rebeccapurple;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.midMar{margin-left: 120px;
+margin-right:120px ;}
+
+img{width: 80px;height: 80px;}
+
+.block{border: 3px solid black;
+     text-align: center;
+    width: 120px;
+    height: 50px;
+    margin: 20px 10px 20px 70px;
+background-color: aqua;}
+
+.block2{border: 3px solid black;
+    text-align: center;
+     width: 120px;
+    height: 50px;
+    margin: 25px;
+background-color: aqua;}
+
+
