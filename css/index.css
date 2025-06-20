@@ -4,12 +4,10 @@ h1{ position: relative;
 }
 
 .mid{display: flex;
-    border: 2px solid rebeccapurple;
     margin-top: 40px;
 }
 
 .bottom{display: flex;
-    border: 2px solid rebeccapurple;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -27,31 +25,37 @@ img{width: 160px;height: 160px;}
 .blockL{border: 3px solid black;
     width: 120px;
     height: 50px;   
-    margin: 25px 25px 25px 20%;
+    margin: 30px 30px 30px 25%;
     text-align: center;
     border-radius: 90px;
-background-color: aqua;}
+    width: 220px;
+    height: 70px;
+    border-style:double;
+background-color: #b193ff70;}
 
 .blockR{border: 3px solid black;
     width: 120px;
     height: 50px;   
-    margin: 25px 20% 25px 25px;
+    margin: 30px 25% 30px 30px ;
     text-align: center;
     border-radius: 90px;
-background-color: aqua;}
+    width: 220px;
+    height: 70px;
+    border-style:double;
+background-color: #b193ff70;}
 
 .block2{border: 3px solid black;
-     width: 120px;
-    height: 50px;
-    margin: 25px;
+     width: 220px;
+    height: 70px;
     text-align: center;
     border-radius: 90px;
-background-color: aqua;}
+    border-style:double;
+background-color: #b193ff70;}
 
 div{justify-content:space-between;}
 
 a{text-align: center;
   font-family: arial black;
-  font-size: 20px;}
+  font-size: 30px;}
 
 
