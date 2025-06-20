@@ -2,11 +2,10 @@
     ;flex-direction: row;}
 
 .Left{width: 30%;
-    height: 100%;
-border: 2px solid red;}
+background-color: aqua;
+border: 5px solid blue;}
 
 .Right{width: 70%;
-    height: 100%;
 border: 2px solid red;} 
 
 .row{display: flex;
@@ -26,3 +25,6 @@ border: 2px solid red;
 h2{margin: 0px;padding: 0px;
 
 text-align: center;}
+
+li{font-size: 20px;
+margin-bottom: 30px;}
