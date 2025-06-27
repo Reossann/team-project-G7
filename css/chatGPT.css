@@ -2,15 +2,14 @@
     ;flex-direction: row;}
 
 .Left{width: 30%;
-background-color: aqua;
-border: 5px solid blue;}
+background-color: rgb(218, 220, 220);
+}
 
 .Right{width: 70%;
-border: 2px solid red;} 
+} 
 
 .row{display: flex;
     justify-content:space-between;
-    border: 2px solid black;
 margin-bottom: 10px;}
 
 .content{margin-bottom:5px ;
@@ -22,7 +21,9 @@ height: 90px;
 border: 2px solid red;
 ;}
 
-h1{margin-left: 30%;}
+h1{margin-left: 30%;
+    font-family: fantasy;
+    font-size: 60px;}
 
 h2{margin: 0px;padding: 0px;
 
