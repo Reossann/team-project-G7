@@ -7,6 +7,9 @@ h1{ position: relative;
     font-size: 40px;
 }
 
+body{  background: linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+}
+
 .mid{display: flex;
     margin-top: 40px;
 }
@@ -35,7 +38,8 @@ img{width: 160px;height: 160px;}
     width: 220px;
     height: 70px;
     border-style:double;
-background-color: #b193ff70;}
+background-color: #b193ff70;
+background-image: radial-gradient(circle, blue,aqua)}
 
 .blockR{border: 3px solid black;
     width: 120px;
@@ -46,7 +50,8 @@ background-color: #b193ff70;}
     width: 220px;
     height: 70px;
     border-style:double;
-background-color: #b193ff70;}
+background-color: #b193ff70;
+background-image: radial-gradient(circle, blue,aqua)}
 
 .block2{border: 3px solid black;
      width: 220px;
@@ -54,7 +59,8 @@ background-color: #b193ff70;}
     text-align: center;
     border-radius: 90px;
     border-style:double;
-background-color: #b193ff70;}
+background-color: #b193ff70;
+background-image: radial-gradient(circle, blue,aqua)}
 
 div{justify-content:space-between;}
 
