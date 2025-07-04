@@ -114,3 +114,26 @@ p {
     }
 }
 
+@keyframes rainbow-border {
+  0%   { border-bottom-color: #ff2a2a; } /* 赤 */
+  15%  { border-bottom-color: #ff7a2a; } /* オレンジ */
+  30%  { border-bottom-color: #ffdb2a; } /* 黄色 */
+  45%  { border-bottom-color: #6fff2a; } /* 緑 */
+  60%  { border-bottom-color: #2affd4; } /* 水色 */
+  75%  { border-bottom-color: #2a7fff; } /* 青 */
+  90%  { border-bottom-color: #d42aff; } /* 紫 */
+  100% { border-bottom-color: #ff2a2a; } /* 最初に戻る (赤) */
+}
+
+.GPTo4-Page .Right h2{border-bottom-color: aquamarine;}
+
+.Copolot-Page .Right h2{border-bottom-color: red;}
+
+.Gemini-Page .Right h2{
+    border-bottom-color: #ff2a2a; /* アニメーション開始時の色 */
+    animation-name: rainbow-border; /* 作成したアニメーション名を指定 */
+    animation-duration: 5s;         /* 5秒かけて一周する */
+    animation-timing-function: linear; /* 一定の速度で変化 */
+    animation-iteration-count: infinite; /* 無限に繰り返す */}
+
+.Grok-Page .Right h2{border-bottom-color: black;}
