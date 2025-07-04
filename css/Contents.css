@@ -125,15 +125,42 @@ p {
   100% { border-bottom-color: #ff2a2a; } /* 最初に戻る (赤) */
 }
 
+@keyframes aurora-bg {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .GPTo4-Page .Right h2{border-bottom-color: aquamarine;}
+.GPTo4-Page{
+    background-color: #2ECC71; /**/
+    color: #2ECC71;}
 
-.Copolot-Page .Right h2{border-bottom-color: red;}
-
-.Gemini-Page .Right h2{
+.Copilot-Page .Right h2{
     border-bottom-color: #ff2a2a; /* アニメーション開始時の色 */
     animation-name: rainbow-border; /* 作成したアニメーション名を指定 */
-    animation-duration: 5s;         /* 5秒かけて一周する */
+    animation-duration: 2s;         /* 5秒かけて一周する */
     animation-timing-function: linear; /* 一定の速度で変化 */
     animation-iteration-count: infinite; /* 無限に繰り返す */}
+.Copilot-Page{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: aurora-bg 5s ease infinite;
+    }
 
-.Grok-Page .Right h2{border-bottom-color: black;}
+.Gemini-Page .Right h2{
+    border-bottom-color: #ff2a2a;}
+.Gemini-Page{
+    background-color: #4796E3; /*青*/
+    color: #4796E3;}
+
+.GPT4_1-Page .Right h2{border-bottom-color: black;}
+.GPT4_1-Page{
+    background-color: #7A42F4; /*青*/
+    color: #7A42F4;}
